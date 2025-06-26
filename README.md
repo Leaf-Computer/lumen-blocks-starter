@@ -1,5 +1,3 @@
-# Lumen Blocks Starter
-
 <div align="center">
   <h1>Lumen Blocks Starter</h1>
   <p><strong>A starter template for building Dioxus applications with Lumen Blocks components</strong></p>
