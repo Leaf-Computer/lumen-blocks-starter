@@ -1,14 +1,24 @@
 [package]
 name = "lumen-blocks-starter"
-version = "0.1.0"
+version = "0.2.0-wip"
 authors = ["Daniel D’Aquino <daniel@daquino.me>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-dioxus = { version = "0.6.0", features = ["router"] }
-lumen-blocks = { git = "https://github.com/Leaf-Computer/lumen-blocks.git", rev = "v0.1.0" }
+dioxus = { version = "=0.7.0-rc.0", features = ["router"] }
+lumen-blocks = { git = "https://github.com/Leaf-Computer/lumen-blocks.git", rev = "654c76c169f8c2ee8bfc1a6406f26cd3d1c0799c" }
+
+[patch.crates-io]
+dioxus-geolocation = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus-notification = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus-sdk = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus_storage = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus-sync = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus-time = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus-util = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
+dioxus-window = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
 
 [features]
 default = ["web"]

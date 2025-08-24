@@ -24,24 +24,11 @@ project/
 ### Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install)
-- [Dioxus toolchain](https://dioxuslabs.com/learn/0.6/getting_started/#)
-- [Node.js and npm](https://nodejs.org/) - For Tailwind CSS
+- [Dioxus toolchain](https://dioxuslabs.com/learn/0.7/getting_started/#)
 
 ### Installation
 
 1. Clone this repository or use it as a template for your new project
-2. Install dependencies with `cargo build`
-
-### Setting Up Tailwind
-
-Lumen Blocks relies on Tailwind CSS for styling. To set up Tailwind:
-
-1. Install npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-2. Run the following command in the root of the project to start the Tailwind CSS compiler and keep classes up to date:
-
-```bash
-npx tailwindcss@3 -i ./tailwind.css -o ./assets/tailwind.css --watch
-```
 
 ### Serving Your App
 
@@ -58,10 +45,10 @@ dx serve --platform desktop
 
 ## Using Lumen Blocks Components
 
-Please check the [Lumen Blocks documentation](https://lumenblocks.dev/docs/0.1) for a complete list of components and usage examples.
+Please check the [Lumen Blocks documentation](https://lumenblocks.dev/docs) for a complete list of components and usage examples.
 
 ## Learn More
 
 - [Lumen Blocks Documentation](https://lumenblocks.dev)
 - [Dioxus Documentation](https://dioxuslabs.com)
-- [Tailwind CSS Documentation](https://v3.tailwindcss.com)
+- [Tailwind CSS Documentation](https://tailwindcss.com)
