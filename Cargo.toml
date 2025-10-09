@@ -7,8 +7,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-dioxus = { version = "=0.7.0-rc.0", features = ["router"] }
-lumen-blocks = { git = "https://github.com/Leaf-Computer/lumen-blocks.git", rev = "654c76c169f8c2ee8bfc1a6406f26cd3d1c0799c" }
+dioxus = { version = "=0.7.0-rc.1", features = ["router"] }
+lumen-blocks = { git = "https://github.com/Leaf-Computer/lumen-blocks.git", rev = "e73f85f2a9effb4e333b533db59752186a4ce2a8" }
 
 [patch.crates-io]
 dioxus-geolocation = { git = "https://github.com/ealmloff/dioxus-std", rev = "5abb45906c47b4c864e1c06a3e6aebb1b5cae03c" }
